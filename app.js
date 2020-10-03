@@ -1,5 +1,6 @@
 document.getElementById('formTask').addEventListener('submit', saveTask);
 
+
 function saveTask(e) {
 
   let title = document.getElementById('title').value;
@@ -11,6 +12,7 @@ function saveTask(e) {
       description
   };
 
+  
   //LOCALSTORAGE
    //allows us to store the data within the browser's own memory
   //and even if the browser closes and reopens our data they will continue there
